@@ -28,6 +28,7 @@ df_spark = spark.read.csv(
 # Obligamos a Spark a leer el archivo contando las filas
 total_filas = df_spark.count()
 timeEnd = time.time()
+print(f"Time to load the dataset with PySpark: {timeEnd - timeInit:.4f} seconds")
 
 # Mostramos las primeras 5 filas del DataFrame
 df_spark.show(5)
