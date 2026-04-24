@@ -1,0 +1,55 @@
+[{
+  "cliente_id": 1,
+  "nombre": "Carlos Rodrigo",
+  "edad": 40,
+  "ciudad": "Cádiz",
+  "compras": [{
+    "producto": "Portátil",
+    "precio": 1200,
+    "fecha": "2024-03-01"
+  }, {
+    "producto": "Ratón",
+    "precio": 25,
+    "fecha": "2024-03-05"
+  }]
+}, {
+  "cliente_id": 2,
+  "nombre": "Javier Enrique",
+  "edad": 42,
+  "ciudad": "Madrid",
+  "compras": [{
+    "producto": "Teclado",
+    "precio": 150,
+    "fecha": "2024-02-15"
+  }]
+}, {
+  "cliente_id": 3,
+  "nombre": "Mario Egea",
+  "edad": 29,
+  "ciudad": "Madrid",
+  "compras": [{
+    "producto": "Monitor",
+    "precio": 200,
+    "fecha": "2024-01-20"
+  }]
+}, {
+  "cliente_id": 4,
+  "nombre": "Jorge Garrido",
+  "edad": 43,
+  "ciudad": "Barcelona",
+  "compras": [{
+    "producto": "Funda",
+    "precio": 30,
+    "fecha": "2024-03-10"
+  }]
+}, {
+  "cliente_id": 5,
+  "nombre": "Clara Sánchez",
+  "edad": 41,
+  "ciudad": "Sevilla",
+  "compras": [{
+    "producto": "Cable HDMI",
+    "precio": 15,
+    "fecha": "2024-03-12"
+  }]
+}]
