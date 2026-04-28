@@ -9,6 +9,7 @@ applied_bigdata/
             └── 01/
                 └── dataset/
                     └── ml-20m/
+        └── lesson_02/
 ├── scripts/
 │   └── download_dataset.sh
 ├── README.md
