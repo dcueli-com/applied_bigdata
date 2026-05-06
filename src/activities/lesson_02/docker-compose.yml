@@ -1,3 +1,4 @@
+name: mt_iabg_hadoop_cluster
 services:
   namenode:
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
@@ -5,12 +6,16 @@ services:
     restart: always
     ports:
       - "9870:9870"
+      - "9000:9000"      
     env_file:
       - ./hadoop.env
+    volumes:
+      - hadoop_namenode_data:/hadoop/dfs/name
 
   resourcemanager:
     image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
     container_name: resourcemanager
+    hostname: resourcemanager
     restart: always
     ports:
       - "8088:8088"
@@ -20,24 +25,31 @@ services:
   datanode1:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
     container_name: datanode1
+    hostname: datanode1
     restart: always
     depends_on:
       - namenode
     env_file:
       - ./hadoop.env
+    volumes:
+      - hadoop_datanode1:/hadoop/dfs/data
 
   datanode2:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
     container_name: datanode2
+    hostname: datanode2
     restart: always
     depends_on:
       - namenode
     env_file:
       - ./hadoop.env
+    volumes:
+      - hadoop_datanode2:/hadoop/dfs/data
 
   nodemanager:
     image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
     container_name: nodemanager
+    hostname: nodemanager
     restart: always
     depends_on:
       - resourcemanager
@@ -56,3 +68,8 @@ services:
     container_name: grafana
     ports:
       - "3000:3000"
+
+volumes:
+  hadoop_namenode_data:
+  hadoop_datanode1:
+  hadoop_datanode2:
