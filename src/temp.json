@@ -1,0 +1,3071 @@
+"stringValue": "Informatics"
+"stringValue": "Computer Science"
+"stringValue": "COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100173
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$Lc"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "70e79825-570c-4a21-ae9f-aa3ab3db987a",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Programming, Specific Applications"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100180
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$Ld"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Programming, Specific Applications"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "64948a8c-75a2-453b-ab03-3d5b34978269",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Mathematics and Computer Science"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100761
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$Le"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Mathematics and Computer Science"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "49b190df-7f28-4249-af55-d118f0fe27c8",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer/Information Technology Administration and Management"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100196
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$Lf"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer/Information Technology Administration and Management"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "944a8836-1a75-4d03-9977-2a2770a87038",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Programming"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100178
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L10"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Programming"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "5032da6d-81b0-44b0-8d0f-c8d681ac874c",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Technology/Computer Systems Technology"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100434
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L11"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Technology/Computer Systems Technology"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "b8e3ee2b-f6c6-4d35-a9b4-b33014f63cf1",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer and Information Sciences, General"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100174
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L12"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer and Information Sciences, General"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "c9429634-1895-4352-b930-a753bafa2c8f",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer and Information Systems Security/Information Assurance"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100199
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L13"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer and Information Systems Security/Information Assurance"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "a6af6c90-be79-4d6c-a16c-a3d7680b7f90",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Graphics"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100193
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L14"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Graphics"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "5c788f00-79ac-4004-943e-7d5cac9e845b",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Accounting and Computer Science"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100769
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L15"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Accounting and Computer Science"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "5990a008-16b9-420f-a09a-d4aa9fd032a2",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Medical Informatics"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 101350
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L16"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Medical Informatics"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "6b662716-bed9-4a3b-9698-046fd5293282",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Engineering Technology/Technician"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100433
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L17"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Engineering Technology/Technician"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "7e0628f0-d7f1-47c5-ae7e-65b58ff3ec31",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Cyber/Computer Forensics and Counterterrorism"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100952
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L18"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Cyber/Computer Forensics and Counterterrorism"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "0795f36d-c076-4806-a8a0-49c31ca3d79b",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Programming/Programmer, General"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100179
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L19"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Programming/Programmer, General"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "6453ec0a-fd38-4712-bee0-59b0683accb2",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Basic Computer Skills"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100804
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L1a"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Basic Computer Skills"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "6ef65e66-9301-4a87-b4f6-970e9108f159",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Programming, Vendor/Product Certification"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100181
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L1b"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Programming, Vendor/Product Certification"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "3b60f4f8-b8b3-433c-8db8-d5fef1f7e8ec",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Medical Illustration and Informatics"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 101348
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L1c"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Medical Illustration and Informatics"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "$",
+              "$L5",
+              "043d1373-1271-41f7-8ba2-0bd1b272b43a",
+              {
+                "selectedModifierProps": {
+                  "borderColor": "action",
+                  "borderWidth": "0.25x",
+                  "borderBottomWidth": "0.25x",
+                  "borderTopWidth": "0.25x",
+                  "borderStartWidth": "0.25x",
+                  "borderEndWidth": "0.25x",
+                  "borderStyle": "solid",
+                  "data-color-scheme": "$undefined"
+                },
+                "viewTrackingSpecs": "$undefined",
+                "onSelect": "$undefined",
+                "shouldInputLoseFocusOnSelect": false,
+                "triggers": [],
+                "focusTriggers": "$undefined",
+                "children": [
+                  "$",
+                  "$L6",
+                  null,
+                  {
+                    "children": [
+                      "$",
+                      "$L7",
+                      null,
+                      {
+                        "triggers": [
+                          {
+                            "$type": "proto.sdui.triggers.Trigger",
+                            "action": {
+                              "actions": [
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudy"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "stringValue",
+                                        "stringValue": "Computer Engineering Technologies/Technicians"
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.SetState",
+                                  "value": {
+                                    "state": {
+                                      "key": {
+                                        "key": {
+                                          "value": {
+                                            "$case": "id",
+                                            "id": "auto-binding-d45d124a-0e8f-4357-a991-4bb6f34953f7education.dataAwareAddEducationFormComponentfieldOfStudyId"
+                                          }
+                                        }
+                                      },
+                                      "value": {
+                                        "$case": "intValue",
+                                        "intValue": 100432
+                                      }
+                                    },
+                                    "isOptimistic": true
+                                  }
+                                },
+                                {
+                                  "$type": "proto.sdui.actions.core.ReplaceComponent",
+                                  "value": {
+                                    "componentKey": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults",
+                                    "key": {
+                                      "$type": "proto.sdui.Key",
+                                      "value": {
+                                        "$case": "id",
+                                        "id": "auto-component-1b1c05c7-6763-468d-b02c-f7a6c9ee00c9_TypeaheadResults"
+                                      }
+                                    },
+                                    "content": {
+                                      "$case": "newComponent",
+                                      "newComponent": "$L1d"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            "delegateComponentKey": "",
+                            "type": {
+                              "$case": "click",
+                              "click": {
+                                "$type": "proto.sdui.triggers.ClickTrigger"
+                              }
+                            }
+                          }
+                        ],
+                        "tabIndex": -1,
+                        "minHeight": "5x",
+                        "children": [
+                          "$",
+                          "div",
+                          null,
+                          {
+                            "className": "e6342be9 _7002ce94 d2adf4fd _7fe2355b _43f264ee ec5425c9 b3c73c89 bca7ad70 _3b352da4 d3336a9f _8d800930",
+                            "children": [
+                              "$",
+                              "$L9",
+                              null,
+                              {
+                                "direction": "horizontal",
+                                "children": [
+                                  [
+                                    "$",
+                                    "div",
+                                    null,
+                                    {
+                                      "className": "_84e51078 e6342be9 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                      "children": [
+                                        [
+                                          "$",
+                                          "div",
+                                          null,
+                                          {
+                                            "className": "_84e51078 _435eae43 ec5425c9 _0ed03001 bca7ad70 _7154dfb1 _1ed344df _8d800930",
+                                            "children": [
+                                              [
+                                                "$",
+                                                "$La",
+                                                null,
+                                                {
+                                                  "maxLineCountExpression": 0,
+                                                  "textColorExpression": 176,
+                                                  "textProps": {
+                                                    "fontFamily": "sans",
+                                                    "fontSize": "small",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "normal",
+                                                    "lineHeight": "open",
+                                                    "textAlign": "start",
+                                                    "children": [
+                                                      "Computer Engineering Technologies/Technicians"
+                                                    ],
+                                                    "linkColorTokens": "$undefined",
+                                                    "linkHoverDecoration": "underline"
+                                                  }
+                                                }
+                                              ]
+                                            ]
+                                          }
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ]
+  }
+]
