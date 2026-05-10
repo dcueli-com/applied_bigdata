@@ -88,6 +88,22 @@ services:
       # Como tengo WAMP instalado, lo abro en el 3307
       - "3307:3306" 
 
+  sqoop:
+    image: dvoros/sqoop:latest
+    container_name: sqoop
+    env_file:
+      - ./hadoop.env
+    # Esto evita que el contenedor se detenga al fallar el script interno
+    # command: ["tail", "-f", "/dev/null"]
+    tty: true
+    stdin_open: true    
+    volumes:
+      # - ./mysql-connector-j-9.7.0.jar:/usr/local/sqoop/lib/mysql-connector-j-9.7.0.jar
+      - ./mysql-connector-j-9.7.0.jar:/jdbc/mysql-connector-j-9.7.0.jar      
+    depends_on:
+      - namenode
+      - db-mysql-metastore
+
   hive-server:
     image: bde2020/hive:2.3.2-postgresql-metastore
     container_name: hive-server
@@ -111,7 +127,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 2G      
+          memory: 2G
   
   # Prometheus y Grafana para la monitorización
   # prometheus:
