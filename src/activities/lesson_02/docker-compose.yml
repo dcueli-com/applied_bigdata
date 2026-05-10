@@ -1,5 +1,7 @@
 name: mt_iabg_hadoop_cluster
 services:
+  # Parte 1: Instalación del clúster Hadoop
+  # Parte 2: Ejecución de un trabajo MapReduce
   namenode:
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
     container_name: namenode
@@ -56,6 +58,61 @@ services:
     env_file:
       - ./hadoop.env
 
+  # Parte 3: Integración con Hive
+  db-psql-metastore:
+    image: bde2020/hive-metastore-postgresql:2.3.0
+    container_name: db-psql-metastore
+    environment:
+      - POSTGRES_PASSWORD=mine
+      - POSTGRES_USER=hive
+      - POSTGRES_DB=metastore_db
+    # Añadimos salud del contenedor para que Hive espere a que la DB esté lista
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hive -d metastore_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5      
+    ports:
+      - "5432:5432"
+
+  # Parte 4: Integración con Sqoop
+  db-mysql-metastore:
+    image: mysql:5.7
+    container_name: db-mysql-metastore
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=sqoop_db
+      - MYSQL_USER=user_sqoop
+      - MYSQL_PASSWORD=pass_sqoop
+    ports:
+      # Como tengo WAMP instalado, lo abro en el 3307
+      - "3307:3306" 
+
+  hive-server:
+    image: bde2020/hive:2.3.2-postgresql-metastore
+    container_name: hive-server
+    depends_on:
+      namenode:
+        condition: service_started
+      db-psql-metastore:
+        condition: service_healthy      
+    env_file:
+      - ./hadoop.env
+    environment:
+      - "HIVE_SITE_CONF_javax_jdo_option_ConnectionURL=jdbc:postgresql://db-psql-metastore:5432/metastore_db"
+      - "HIVE_SITE_CONF_javax_jdo_option_ConnectionDriverName=org.postgresql.Driver"
+      - "HIVE_SITE_CONF_javax_jdo_option_ConnectionUserName=hive"
+      - "HIVE_SITE_CONF_javax_jdo_option_ConnectionPassword=mine"
+    ports:
+      - "10000:10000"
+    volumes:
+      - hive_metastore:/opt/hive/metastore_db
+    # Como hay RAM de sobra, indico un límite de memoria
+    deploy:
+      resources:
+        limits:
+          memory: 2G      
+  
   # Prometheus y Grafana para la monitorización
   # prometheus:
   #   image: prom/prometheus
@@ -73,3 +130,4 @@ volumes:
   hadoop_namenode_data:
   hadoop_datanode1:
   hadoop_datanode2:
+  hive_metastore:
