@@ -127,7 +127,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 2G
+          memory: 8G
   
   # Prometheus y Grafana para la monitorización
   # prometheus:
