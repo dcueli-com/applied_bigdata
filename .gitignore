@@ -207,4 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Custom
-src/activities/lesson_01/01/dataset/
+## Datasets
+src/activities/lesson_01/dataset/
+src/activities/lesson_03/dataset/
