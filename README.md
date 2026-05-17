@@ -2,6 +2,7 @@
 Applied Big Data (Máster IA &amp; Big data, Linkiafp.es)
 
 ## Project folder structure
+```
 applied_bigdata/
 ├── src/
 |    ├── activities/
@@ -37,6 +38,7 @@ applied_bigdata/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ## Datasets
 This proyect use the following datasets
@@ -50,6 +52,7 @@ activities/lesson_01/dataset/
 - Asteroid Dataset
 Download from Kaggle:
 https://gitlab.com/mirsakhawathossain/pha-ml/-/raw/master/Dataset/dataset.csv
+
 Or download from <a href="https://ssd.jpl.nasa.gov/sbdb_query.cgi"><i>NASA JPL Small Body Search Engine</i></a>
 https://ssd.jpl.nasa.gov/sbdb_query.cgi
  
