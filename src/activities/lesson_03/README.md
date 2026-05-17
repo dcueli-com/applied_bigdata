@@ -13,4 +13,7 @@ https://gitlab.com/mirsakhawathossain/pha-ml/-/raw/master/Dataset/dataset.csv
 activities/lesson_03/dataset/
 
 ### Install Python Libraries, if it is possible in a Python virtual enviroment (venv)
+- setuptools (an obsolete library but necessary for the proper execution of the ydata-profiling)
+pip install setuptools
+- ydata-profiling, pygwalker and pandas (pandas library is necessary for the proper execution of the ydata-profiling)
 pip install ydata-profiling pygwalker pandas
