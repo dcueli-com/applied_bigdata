@@ -210,3 +210,5 @@ __marimo__/
 ## Datasets
 src/activities/lesson_01/dataset/
 src/activities/lesson_03/dataset/
+## Reports
+src/activities/reports/
