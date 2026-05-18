@@ -42,22 +42,13 @@ applied_bigdata/
 
 ## Datasets
 This proyect use the following datasets
-- MovieLens 20M
+### RA1 > Activities > Mandatory
+1. MovieLens 20M, download from <a href="grouplens.org">grouplens.org</a>:  <a href="https://grouplens.org/datasets/movielens/20m/">https://grouplens.org/datasets/movielens/20m/</a><br>
+2. Unzip into <code>activities/lesson_01/dataset/</code>
 
-Download from:
-https://grouplens.org/datasets/movielens/20m/
-And after unzip in:
-activities/lesson_01/dataset/
-
-- Asteroid Dataset
-Download from Kaggle:
-https://gitlab.com/mirsakhawathossain/pha-ml/-/raw/master/Dataset/dataset.csv
-
-Or download from <a href="https://ssd.jpl.nasa.gov/sbdb_query.cgi"><i>NASA JPL Small Body Search Engine</i></a>
-https://ssd.jpl.nasa.gov/sbdb_query.cgi
- 
-And after unzip in:
-activities/lesson_03/dataset/
+### RA3 > Activities > Mandatory
+1. Asteroid Dataset (<a href="https://ssd.jpl.nasa.gov/sbdb_query.cgi"><i>NASA JPL Small Body Search Engine</i></a>), download from <a href="kaggle.com">kaggle.com</a>:  <a href="https://gitlab.com/mirsakhawathossain/pha-ml/-/raw/master/Dataset/dataset.csv">https://gitlab.com/mirsakhawathossain/pha-ml/-/raw/master/Dataset/dataset.csv</a>
+2. Unzip into <code>activities/lesson_03/dataset/</code>
 
 ## Technical requirements
 ### Python version
