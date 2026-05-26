@@ -33,6 +33,8 @@ services:
       - namenode
     env_file:
       - ./hadoop.env
+    ports:
+      - "9864:9864"
     volumes:
       - hadoop_datanode1:/hadoop/dfs/data
 
@@ -45,6 +47,8 @@ services:
       - namenode
     env_file:
       - ./hadoop.env
+    ports:
+      - "9865:9864"
     volumes:
       - hadoop_datanode2:/hadoop/dfs/data
 
