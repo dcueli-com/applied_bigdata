@@ -130,17 +130,17 @@ services:
           memory: 8G
   
   # Prometheus y Grafana para la monitorización
-  # prometheus:
-  #   image: prom/prometheus
-  #   container_name: prometheus
-  #   ports:
-  #     - "9090:9090"
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
 
-  # grafana:
-  #   image: grafana/grafana
-  #   container_name: grafana
-  #   ports:
-  #     - "3000:3000"
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
 
 volumes:
   hadoop_namenode_data:
