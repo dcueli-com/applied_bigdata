@@ -66,6 +66,9 @@ services:
   db-psql-metastore:
     image: bde2020/hive-metastore-postgresql:2.3.0
     container_name: db-psql-metastore
+    restart: always
+    depends_on:
+      - namenode
     environment:
       - POSTGRES_PASSWORD=mine
       - POSTGRES_USER=hive
@@ -83,6 +86,9 @@ services:
   db-mysql-metastore:
     image: mysql:5.7
     container_name: db-mysql-metastore
+    restart: always
+    depends_on:
+      - namenode
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=sqoop_db
@@ -95,6 +101,11 @@ services:
   sqoop:
     image: dvoros/sqoop:latest
     container_name: sqoop
+    restart: always
+    depends_on:
+      - namenode
+      - db-mysql-metastore
+      - hive-server
     env_file:
       - ./hadoop.env
     # Esto evita que el contenedor se detenga al fallar el script interno
@@ -104,9 +115,6 @@ services:
     volumes:
       # - ./mysql-connector-j-9.7.0.jar:/usr/local/sqoop/lib/mysql-connector-j-9.7.0.jar
       - ./mysql-connector-j-9.7.0.jar:/jdbc/mysql-connector-j-9.7.0.jar      
-    depends_on:
-      - namenode
-      - db-mysql-metastore
 
   hive-server:
     image: bde2020/hive:2.3.2-postgresql-metastore
@@ -137,12 +145,14 @@ services:
   prometheus:
     image: prom/prometheus
     container_name: prometheus
+    restart: always
     ports:
       - "9090:9090"
 
   grafana:
     image: grafana/grafana
     container_name: grafana
+    restart: always
     ports:
       - "3000:3000"
 
