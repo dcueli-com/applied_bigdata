@@ -8,4 +8,4 @@ scrape_configs:
 
   - job_name: 'hadoop-jmx'
     static_configs:
-      - targets: ['namenode:9000', 'datanode1:9864', 'datanode2:9865']
+      - targets: ['namenode:9010', 'datanode1:9010', 'datanode2:9010']

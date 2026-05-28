@@ -14,6 +14,8 @@ services:
       - ./hadoop.env
     volumes:
       - hadoop_namenode_data:/hadoop/dfs/name
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
 
   resourcemanager:
     image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
@@ -36,8 +38,11 @@ services:
       - ./hadoop.env
     ports:
       - "9864:9864"
+      - "9011:9010"
     volumes:
       - hadoop_datanode1:/hadoop/dfs/data
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
 
   datanode2:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
@@ -50,8 +55,11 @@ services:
       - ./hadoop.env
     ports:
       - "9865:9864"
+      - "9012:9010"
     volumes:
       - hadoop_datanode2:/hadoop/dfs/data
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
 
   nodemanager:
     image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
@@ -114,7 +122,6 @@ services:
     tty: true
     stdin_open: true    
     volumes:
-      # - ./mysql-connector-j-9.7.0.jar:/usr/local/sqoop/lib/mysql-connector-j-9.7.0.jar
       - ./mysql-connector-j-9.7.0.jar:/jdbc/mysql-connector-j-9.7.0.jar      
 
   hive-server:
@@ -149,6 +156,8 @@ services:
     restart: always
     ports:
       - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml      
 
   grafana:
     image: grafana/grafana
