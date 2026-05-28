@@ -4,37 +4,53 @@ Applied Big Data (Máster IA &amp; Big data, Linkiafp.es)
 ## Project folder structure
 ```
 applied_bigdata/
-├── src/
-|    ├── activities/
-|    |    ├── lesson_01/
-|    |    |   ├── comparison/
-|    |    |   |   ├── notebooks/
-|    |    |   |   └── scripts/
-|    |    |   ├── dataset/
-|    |    |   |   └── ml-20m/
-|    |    |   └── mongoplayground/
-|    |    ├── lesson_02/
-|    |    |   ├── comparison/
-|    |    |   |   ├── notebooks/
-|    |    |   |   └── scripts/
-|    |    |   └── dataset/
-|    |    └── lesson_03/
-|    |    |   ├── dataset/
-|    |    |   ├── notebooks/
-|    |    |   ├── scripts/
-|    |    |   └── README.md
-|    |    ├── reports/
-|    |    └── temp/
-|    ├── config/
-|    └── lessons/
-|        ├── 20260413-02
-|        ├── 20260508-06
-|        └── 20260511-07
-|            ├── checksum
-|            ├── data-profiling
-|            └── houses-models
+├── .venv/ [.gitignore]
+├── handover/
+|   └── doing/
+|
 ├── scripts/
 |   └── download_dataset.sh
+|
+├── src/
+|   ├── activities/
+|   |   ├── lesson_01/
+|   |   |   ├── comparison/
+|   |   |   |   ├── notebooks/
+|   |   |   |   └── scripts/
+|   |   |   |
+|   |   |   ├── dataset/
+|   |   |   |   └── ml-20m/
+|   |   |   |
+|   |   |   └── mongoplayground/
+|   |   |
+|   |   ├── lesson_02/
+|   |   |   ├── comparison/
+|   |   |   |   ├── notebooks/
+|   |   |   |   └── scripts/
+|   |   |   |
+|   |   |   └── dataset/
+|   |   |
+|   |   └── lesson_03/
+|   |   |   ├── dataset/
+|   |   |   ├── notebooks/
+|   |   |   ├── scripts/
+|   |   |   └── README.md
+|   |   |
+|   |   └── lesson_04/
+|   |   |   └── README.md
+|   |   |
+|   |   ├── reports/ [.gitignore]
+|   |   └── temp/
+|   | 
+|   ├── config/
+|   └── lessons/
+|       ├── 20260413-02
+|       ├── 20260508-06
+|       └── 20260511-07
+|           ├── checksum
+|           ├── data-profiling
+|           └── houses-models
+|
 ├── .gitignore
 ├── LICENSE
 └── README.md
