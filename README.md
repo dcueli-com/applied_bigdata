@@ -18,7 +18,7 @@ applied_bigdata/
 |   |   |   |   ├── notebooks/
 |   |   |   |   └── scripts/
 |   |   |   |
-|   |   |   ├── dataset/
+|   |   |   ├── dataset/ [.gitignore]
 |   |   |   |   └── ml-20m/
 |   |   |   |
 |   |   |   └── mongoplayground/
@@ -31,7 +31,7 @@ applied_bigdata/
 |   |   |   └── dataset/
 |   |   |
 |   |   └── lesson_03/
-|   |   |   ├── dataset/
+|   |   |   ├── dataset/ [.gitignore]
 |   |   |   ├── notebooks/
 |   |   |   ├── scripts/
 |   |   |   └── README.md

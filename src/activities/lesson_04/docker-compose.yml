@@ -8,7 +8,8 @@ services:
     restart: always
     ports:
       - "9870:9870"
-      - "9000:9000"      
+      - "9000:9000"
+      - "9010:9010"
     env_file:
       - ./hadoop.env
     volumes:
