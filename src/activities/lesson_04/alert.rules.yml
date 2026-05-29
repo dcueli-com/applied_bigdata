@@ -1,0 +1,11 @@
+groups:
+  - name: alertas_hadoop
+    rules:
+      - alert: ContenedorHadoopCaido
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "El contenedor {{ $labels.instance }} se ha caído"
+          description: "Un servicio del clúster lleva abajo más de 1 minuto."

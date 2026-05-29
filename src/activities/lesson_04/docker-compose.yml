@@ -26,6 +26,9 @@ services:
       - "8088:8088"
     env_file:
       - ./hadoop.env
+    volumes:
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
 
   datanode1:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
@@ -70,6 +73,9 @@ services:
       - resourcemanager
     env_file:
       - ./hadoop.env
+    volumes:
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
 
   # Parte 3: Integración con Hive
   db-psql-metastore:
@@ -106,6 +112,8 @@ services:
     ports:
       # Como tengo WAMP instalado, lo abro en el 3307
       - "3307:3306" 
+    # volumes:
+    #   - ./mysql-connector-j-9.7.0.jar:/usr/local/sqoop/lib/mysql-connector-j-9.7.0.jar
 
   sqoop:
     image: dvoros/sqoop:latest
@@ -120,9 +128,10 @@ services:
     # Esto evita que el contenedor se detenga al fallar el script interno
     # command: ["tail", "-f", "/dev/null"]
     tty: true
-    stdin_open: true    
+    stdin_open: true
     volumes:
       - ./mysql-connector-j-9.7.0.jar:/jdbc/mysql-connector-j-9.7.0.jar
+      # - ./mysql-connector-j-9.7.0.jar:/usr/local/sqoop/lib/mysql-connector-j-9.7.0.jar
 
   hive-server:
     image: bde2020/hive:2.3.2-postgresql-metastore
@@ -143,6 +152,8 @@ services:
       - "10000:10000"
     volumes:
       - hive_metastore:/opt/hive/metastore_db
+      - ./jmx_prometheus_javaagent.jar:/opt/jmx_exporter/jmx_prometheus_javaagent.jar
+      - ./jmx_config.yml:/opt/jmx_exporter/jmx_config.yml
     # Como hay RAM de sobra, indico un límite de memoria
     deploy:
       resources:
