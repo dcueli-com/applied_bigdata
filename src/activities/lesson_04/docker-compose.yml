@@ -168,7 +168,9 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml      
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml 
+      - ./prom.alert.rules/alert.down_container.yml:/etc/prometheus/alert.down_container.yml     
+      - ./prom.alert.rules/alert.yarn_bottleneck.yml:/etc/prometheus/alert.yarn_bottleneck.yml     
 
   grafana:
     image: grafana/grafana

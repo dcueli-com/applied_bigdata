@@ -1,0 +1,21 @@
+2. Herramientas de monitorización
+Responde:
+¿Qué herramientas usarías? (Hadoop UI, Prometheus, Grafana, logs, etc.) 
+¿Qué información aporta cada una?
+Para controlar y vigilar los problemas que he nombrado anteriormente, como saturaciones, embudos y pausas críticas, es necesario utilizar un conjunto de herramientas complementarias entre sí, ya que ninguna cubre todo el espectro de información por sí sola.
+Con el siguiente enfoque, creo que puedo responder a la cuestión sobre qué herramientas podemos utilizar según la información que nos aporta cada una:
+2.1. La interfaz web de Hadoop
+Es la vista integrada en la propia arquitectura y que ya hemos visto y desglosado, en parte, anteriormente. Por sí misma no guarda históricos de rendimiento, pero nos da una captura en tiempo real del estado de los componentes, como los que siguen:
+NameNode UI: Resumiendo toda la sección dedicada a esta utilidad, es donde, de un vistazo, podemos controlar la salud del HDFS, ya que muestra el espacio ocupado, los DataNodes que han dejado de responder y si hay bloques de datos corruptos o perdidos.
+YARN ResourceManager UI: De igual forma que antes y haciendo un resumen breve, muestra la memoria RAM y las CPUs virtuales totales frente a las usadas, las colas de ejecución y si hay tareas atascadas.
+2.2. Prometheus (métricas) y Grafana (históricos)
+Es el conjunto perfecto, o al menos el más usado en el ámbito laboral, para monitorizar los componentes a lo largo del tiempo, donde:
+Prometheus se encarga de recoger las métricas del clúster en un tiempo dado.
+Grafana transforma los resultados obtenidos de las consultas de Prometheus en paneles visuales o gráficas.
+2.3. Logs
+Podríamos definir esto como la “caja negra” real y por excelencia del sistema y, como tal, es el lugar donde rastreamos de forma manual una vez recibido el aviso de que algo ha fallado gracias a las alertas definidas. Podemos encontrar:
+Logs de Daemons (hadoop-*.log): Donde podemos encontrar errores de conexión entre nodos o denegaciones de permisos en HDFS.
+Logs de Aplicaciones (yarn-*.log): Donde se registra el comportamiento de los procesos de Spark y MapReduce, además de las excepciones de código de los desarrolladores.
+2.4. Otras herramientas y utilidades usadas en el ámbito empresarial
+Existen otras herramientas, utilidades y aplicaciones muy utilizadas también en entornos corporativos, o que al menos particularmente he usado, como son Nagios (para monitorización integral y que ofrece también una UI Web y su famoso sistema de alertas), Zabbix, New Relic y Cloudera Manager, entre otras; pero claro, esto está basado en la experiencia.
+Actualmente, haciendo una búsqueda para ver cuáles son las más populares o, mejor dicho, las más usadas en el entorno laboral de mayor a menor, se encuentran: Prometheus + Grafana (esto es evidente), Datadog, Dynatrace, New Relic, Elastic Stack, Splunk, Zabbix y Nagios.
