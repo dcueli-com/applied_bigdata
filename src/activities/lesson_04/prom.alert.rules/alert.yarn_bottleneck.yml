@@ -1,0 +1,11 @@
+groups:
+  - name: yarn_bottleneck
+    rules:
+      - alert: YARNBottleneck
+        expr: sum(yarn_cluster_apps_state{state="ACCEPTED"}) > 5
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Atasco de aplicaciones en YARN"
+          description: "Hay más de 5 aplicaciones retenidas en estado ACCEPTED durante más de 5 minutos por falta de contenedores libres."
