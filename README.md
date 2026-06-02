@@ -39,6 +39,9 @@ applied_bigdata/
 |   |   └── lesson_04/
 |   |   |   └── README.md
 |   |   |
+|   |   └── lesson_05/
+|   |   |   └── README.md
+|   |   |
 |   |   ├── reports/ [.gitignore]
 |   |   └── temp/
 |   | 
