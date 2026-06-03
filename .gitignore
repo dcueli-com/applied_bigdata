@@ -208,7 +208,6 @@ __marimo__/
 
 # Custom
 ## Datasets
-src/activities/lesson_01/dataset/
-src/activities/lesson_03/dataset/
+src/activities/**/dataset/
 ## Reports
 src/activities/reports/

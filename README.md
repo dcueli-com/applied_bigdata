@@ -40,6 +40,9 @@ applied_bigdata/
 |   |   |   └── README.md
 |   |   |
 |   |   └── lesson_05/
+|   |   |   ├── dataset/ [.gitignore]
+|   |   |   ├── notebooks/
+|   |   |   ├── scripts/
 |   |   |   └── README.md
 |   |   |
 |   |   ├── reports/ [.gitignore]
