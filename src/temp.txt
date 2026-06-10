@@ -1,0 +1,44 @@
+Contexto	4
+- EJERCICIO 1	4
+  -- Proyecto KDD	4
+Resumen ejecutivo	4
+Objetivo del proyecto	4
+Contexto y alcance	5
+Metodología	5
+- Infraestructura técnica	5
+- Entorno de trabajo	5
+- Herramientas de análisis	6
+Datos utilizados y calidad	6
+- Limpieza de datos	6
+- Auditando Categorías (columna category)	7
+Análisis y hallazgos	10
+- Auditoría de Calidad y Consistencia del Dataset	10
+- Trazabilidad de Reseña Única (user_id + review_id + product_id)	10
+  -- Depuración de duplicados relacionales	12
+  -- Verificación de duplicados relacionales	13
+- Auditoría de datos Null	13
+Minería de datos	14
+- Estructura de Catálogo de Precios	14
+- El Núcleo del Catálogo, el consumo masivo	16
+- Naturaleza de los Casos atípicos coherentes	16
+- Conclusiones	16
+Interpretación de resultados	16
+Recomendaciones	16
+- Auditoría de Popularidad para la Asignación de Presupuesto (Evitar Falsos Éxitos)	17
+  -- Acción de negocio	17
+  -- Utilidad real	17
+- Estrategia de Venta Cruzada para el Núcleo del Catálogo (Consumo Masivo)	17
+  -- Acción de negocio	17
+  -- Utilidad real	17
+- Segmentación de Alta Tecnología para los Casos Atípicos Coherentes (Gama Alta)	17
+  -- Acción de negocio	17
+  -- Utilidad real	17
+Limitaciones	17
+- Calidad del texto en las reseñas	17
+- Ausencia de datos temporales o de coste	18
+Conclusiones	18
+- Importancia de la auditoría de datos	18
+- Validación del enfoque cuantitativo	18
+- Realidad del inventario analizado	18
+Anexo	18
+
