@@ -1,12 +1,13 @@
 # applied_bigdata
-Applied Big Data (Máster IA &amp; Big data, Linkiafp.es)
+Applied Big Data (Master's Degree in Artificial Intelligence and Big Data | LinkiaFP)
 
 ## Project folder structure
 ```
 applied_bigdata/
 ├── .venv/ [.gitignore]
 ├── handover/
-|   └── doing/
+|   ├── doing/
+|   └── temp/
 |
 ├── scripts/
 |   └── download_dataset.sh
